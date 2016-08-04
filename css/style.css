@@ -105,7 +105,7 @@ a.nav-logo{
 	margin-top:2.5em;
 	display:block;
 }
-/*-- notas --*/
+
 .welcome-note{
 	margin:3em 0;
 }
@@ -120,7 +120,7 @@ a.nav-logo{
 .note h1 span{
 	font-weight:700;
 }
-/*-- top-grids --*/
+
 .top-grids{
 	margin:4em 0 0 0;
 }
@@ -164,18 +164,7 @@ a.t-btn:hover{
 .top-grid:hover{
 	background:#4c0055;
 } 
-.top-grid span.icon1{
-	background-position:0px 0px;
-}
-.top-grid span.icon2{
-	background-position:-60px 0px;
-}
-.top-grid span.icon3{
-	background-position:-120px 0px;
-}
-.top-grid span.icon4{
-	background-position:-180px 0px;
-}
+
 /*-- sobre mi --*/
 .about-section{
 	background:#524664;
@@ -198,8 +187,7 @@ a.t-btn:hover{
 	-o-border-radius: 50%;
 	-ms-border-radius: 50%;
 	padding: 2.7em;
-	border: 5px solid white;
-	height: 300px;
+	height: 284px;
 	width: 300px;
 }
 .about-section-head p{
@@ -244,7 +232,6 @@ a.t-btn:hover{
 	color:white;
 	font-weight:500;
 	font-size:1.3em;
-	text-transform:uppercase;
 	margin-bottom:1.5em;
 }
 .about-section-grid-3 p{
@@ -273,17 +260,13 @@ a.t-btn:hover{
 		.red > span {
 			background-color:#FFD670;
 		}
-		.nostripes > span > span, .nostripes > span:after {
-			-webkit-animation: none;
-			-moz-animation: none;
-			background-image: none;
-		}
+		
 /*----//porcentaje/aptitudes----*/
 .progress_desc{
 	float: left;
 	color: white;
 	margin:8px 15px;
-	font-size:13px;
+	font-size:12px;
 	text-transform: uppercase;
 	font-weight:600;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -296,12 +279,7 @@ a.t-btn:hover{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:17px;
 }
-.title {
-	margin:2em 0 1em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1em;
-}
+
 
 
 
@@ -309,10 +287,7 @@ a.t-btn:hover{
 
 	
 /*-- servicios--*/
-.service-head{
-	
-	
-}
+
 .service-head h3{
 	color: grey;
 	font-size: 2em;
@@ -342,6 +317,17 @@ a.t-btn:hover{
 		color:whitesmoke;
 	}
 
+.iicon2 {
+   
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+ 
+}
+	a{
+		color:white;
+	}
+
 .services-grid-info{
 	float:right;
 	width:88%;
@@ -358,6 +344,7 @@ a.t-btn:hover{
 	font-size: 1em;
 	line-height: 1.5em;
 	width: 80%;
+	padding: 20px;
 	margin: 0.5em 0 0 0;
 	text-align: justify;
 }
@@ -452,33 +439,39 @@ a.t-btn:hover{
 .portfolio{
 	padding:3.5em 0;
 }
-/*-- feedback --*/
-.feedback{
-	background: url(../images/feedback-bg.jpg) no-repeat 0px 0px;
-	background-size: cover;
-	min-height: 300px;
-	padding: 6em 0 0 0;
+
+.background-capa{
+	width: 100%;
 }
-.feedback-grid p{
-	color: #FFf;
-	font-size: 1.2em;
-	line-height: 1.5em;
-	width: 90%;
-	margin: 0 auto;
+.btn {
+    display: inline-block;
+    
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
-.feedback-grid h4{
-	color:#2ec06c;
-	font-weight:700;
-	font-family: 'Asap', sans-serif;
-	font-size:1.3em;
-	margin:1em 0 0 0;
+.btn-primary {
+	margin: 20px 20px 20px 20px;
+    color: #fff;
+    background-color: #524664;
+    border-color: grey;
+    left: 78px;
+    bottom: 102px;
+    position: relative;
 }
-.feedback-grid h4 span{
-	color:#FFF;
-	font-weight:400;
-	font-size:0.7em;
-	font-style:italic;
-}
+
+
 
 .text-box{
 	width:48%;
@@ -511,52 +504,15 @@ a.t-btn:hover{
 	border-color:#63d091;
 	color:#63d091;
 }
-.subject textarea{
-	height:192px;
-	resize:none;
-	position:relative;
-}
-.subject{
-	position:relative;
-}
-.subject input[type="submit"]{
-	background: url(../images/arrow.png) no-repeat 10px 79px #2ec06c;
-	position:absolute;
-	border:none;
-	width:40px;
-	height:192px;
-	display:block;
-	outline:none;
-	right:0;
-	top:0;
-	border-top-right-radius:0.3em;
-	border-bottom-right-radius:0.3em
-	cursor:pointer;
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-}
-.subject input[type="submit"]:hover{
-	background: url(../images/arrow.png) no-repeat 10px 79px #26a95e;
-}
-/*-- footer --*/
+
+
 .footer{
-	background:#eeeeee;
+	background:#efefef;
 	padding:0.8em 0;
+	height: 200px;
+	width: 100%;
 }
-.footer p{
-	margin:0;
-	color:#2f2f2f;
-	font-size:1em;
-}
-.footer p a{
-	color:#2ec06c;
-	text-decoration:none;
-}
-.footer p a:hover{
-	color:#26a95e;
-}
+
 #toTop {
 	display: none;
 	text-decoration: none;
@@ -580,7 +536,7 @@ a.t-btn:hover{
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
-/*-- responsive-design --*/
+
 @media(max-width:1280px){
 	.about-left-grid {
 		min-height: 467px;
@@ -670,22 +626,11 @@ a.t-btn:hover{
 	.services-grids {
 		padding: 2em 0 0 0;
 	}
-	.clients {
-		min-height: 256px;
-	}
-	.clients h3 {
-		margin: 2.5em 0 0 0;
-	}
+	
 	.portfolio {
 		padding: 1.5em 0;
 	}
-	.feedback {
-		padding: 3em 0 0 0;
-		min-height: 272px;
-	}
-	.contact {
-		padding: 1.5em 0 3em 0;
-	}
+	
 	
 }
 @media(max-width:640px){
@@ -700,13 +645,7 @@ a.t-btn:hover{
 	.portfolio-grid-pic-caption a {
 		margin-top: 6em;
 	}
-	.contact-left ul li a {
-		height: 120px;
-		width: 120px;
-	}
-	.contact-left ul li a span {
-		margin-top: 2em;
-	}
+	
 	.note h1 {
 		font-size: 2.2em;
 	}
@@ -752,22 +691,11 @@ a.t-btn:hover{
 	.services-grids {
 		padding: 2em 0 0 0;
 	}
-	.clients {
-		min-height: 256px;
-	}
-	.clients h3 {
-		margin: 2.5em 0 0 0;
-	}
+	
 	.portfolio {
 		padding: 1.5em 0;
 	}
-	.feedback {
-		padding: 3em 0 0 0;
-		min-height: 272px;
-	}
-	.contact {
-		padding: 1.5em 0 3em 0;
-	}
+	
 	.about-left-grid p {
 		overflow: hidden;
 		height: 130px;
@@ -792,13 +720,7 @@ a.t-btn:hover{
 	.portfolio-grid-pic-caption a {
 		margin-top: 6em;
 	}
-	.contact-left ul li a {
-		height: 150px;
-		width: 150px;
-	}
-	.contact-left ul li a span {
-		margin-top: 3em;
-	}
+	
 	.note h1 {
 		font-size: 1.8em;
 	}
@@ -845,22 +767,11 @@ a.t-btn:hover{
 	.services-grids {
 		padding: 2em 0 0 0;
 	}
-	.clients {
-		min-height: 204px;
-	}
-	.clients h3 {
-		margin: 1.5em 0 0 0;
-	}
+	
 	.portfolio {
 		padding: 1.5em 0;
 	}
-	.feedback {
-		padding: 1.5em 0 0 0;
-		min-height: 227px;
-	}
-	.contact {
-		padding: 1.5em 0 2em 0;
-	}
+	
 	.about-left-grid p {
 		overflow: hidden;
 		height: 130px;
@@ -905,21 +816,8 @@ a.t-btn:hover{
 	.portfolio-grids {
 		margin-top: 1em;
 	}
-	.feedback-grid p {
-		font-size: 1em;
-	}
-	.contact-left {
-		text-align: center;
-	}
-	.contact-head {
-		margin-bottom: 2em;
-	}
-	.contact-head p {
-		font-size: 1em;
-	}
-	.contact-head h3 {
-		font-size: 1.8em;
-	}
+	
+	
 	.text-box {
 		width: 100%;
 		float: none;
@@ -999,23 +897,11 @@ a.t-btn:hover{
 		padding: 2em 0 0 0;
 		width:100%;
 	}
-	.clients {
-		min-height: 204px;
-	}
-	.clients h3 {
-		margin: 1.5em 0 0 0;
-		font-size:1em;
-	}
+	
 	.portfolio {
 		padding: 1.5em 0;
 	}
-	.feedback {
-		padding: 1.2em 0 0 0;
-		min-height: 189px;
-	}
-	.contact {
-		padding: 1.5em 0 2em 0;
-	}
+	
 	.about-left-grid p {
 		overflow: hidden;
 		height: 91px;
@@ -1109,21 +995,13 @@ a.t-btn:hover{
 		font-size: 1em;
 		padding: 0.7em 0;
 	}
-	.feedback-grid h4 {
-		margin: 0.7em 0 0 0;
-	}
+	
 	.text-box input[type="text"], .subject textarea {
 		padding: 0.6em;
 	}
-	.subject textarea {
-		height: 150px;
-	}
-	.subject input[type="submit"] {
-		width: 33px;
-		height: 150px;
-		background: url(../images/arrow.png) no-repeat 7px 64px #2ec06c;
-	}
+	
 	.footer {
 		padding: 0.5em 0;
+
 	}
 }
